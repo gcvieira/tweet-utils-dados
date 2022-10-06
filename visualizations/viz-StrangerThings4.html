@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+    <head>
+    <script src='https://cdn.plot.ly/plotly-2.8.3.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/6.2.1/math.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.1.1/wordcloud2.min.js'></script>
+</head>
+
+<body style='background-color: #1B2542'>
+    <div id='lineplot'></div>
+    <div id='heatmap'></div>
+    <div id='heatmapMinute'></div>
+<h3 style='text-align: center; color: white; font-size: 36px; font-family: Montserrat; font-weight: bold'>Wordcloud</h3>
+    <div id='wordcloud' style='width:100%;height:250px'>
+    <canvas></canvas>
+</div>
+</body>
+
+<body>
+<h3 style='text-align: center; color: white; font-size: 36px; font-family: Montserrat; font-weight: bold'>Top Retweets</h3><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Não podemos esquecer do aniversário do Will… Noah Schnapp está completando 18 anos hoje! 🥳🎂❤️💕<br><br>Créditos da imagem: <a href="https://twitter.com/almirondesign?ref_src=twsrc%5Etfw">@almirondesign</a><a href="https://twitter.com/hashtag/StrangerThings?src=hash&amp;ref_src=twsrc%5Etfw">#StrangerThings</a> <a href="https://twitter.com/hashtag/StrangerThings4?src=hash&amp;ref_src=twsrc%5Etfw">#StrangerThings4</a> <a href="https://t.co/OQyi8MFgOK">pic.twitter.com/OQyi8MFgOK</a></p>&mdash; Stranger Things Brasil (@sthingscombr) <a href="https://twitter.com/sthingscombr/status/1577004354288357376?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Venham ver a maravilhosa @/jessie.r.p falando um pouco sobre o sotaque britânico do Joseph e os outros sotaques que ele consegue reproduzir com perfeição 💙<a href="https://twitter.com/hashtag/josephquinn?src=hash&amp;ref_src=twsrc%5Etfw">#josephquinn</a> <a href="https://twitter.com/hashtag/josephquinnbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#josephquinnbrasil</a> <a href="https://twitter.com/hashtag/eddiemunson?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunson</a> <a href="https://twitter.com/hashtag/eddiemunsonfandom?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunsonfandom</a> <a href="https://twitter.com/hashtag/eddiemunsonbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunsonbrasil</a> <a href="https://twitter.com/hashtag/strangerthings4?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthings4</a> <a href="https://twitter.com/hashtag/strangerthingsbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthingsbrasil</a> <a href="https://t.co/uh2sQnRCp7">pic.twitter.com/uh2sQnRCp7</a></p>&mdash; Joseph Quinn BR (@josephquinnbr_2) <a href="https://twitter.com/josephquinnbr_2/status/1576784153286434818?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">E esse vídeo promo de Stranger Things 4? Lembravam dele? <br>Precisa ser exaltado 🤤😍<a href="https://twitter.com/hashtag/josephquinn?src=hash&amp;ref_src=twsrc%5Etfw">#josephquinn</a> <a href="https://twitter.com/hashtag/eddiemunson?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunson</a> <a href="https://twitter.com/hashtag/strangerthings4?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthings4</a> <a href="https://t.co/LvcRqVJCa1">pic.twitter.com/LvcRqVJCa1</a></p>&mdash; Joseph Quinn Fever (@jqfbrazil) <a href="https://twitter.com/jqfbrazil/status/1576733941780090881?ref_src=twsrc%5Etfw">October 3, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">Passando pra lembrar que minha fanfic de Stranger Things tá postada no Social Spirit e no AO3  by <a href="https://twitter.com/Persiewriter?ref_src=twsrc%5Etfw">@Persiewriter</a> <br><br>Leia nas plataformas:<br><br>AO3: <a href="https://t.co/lvzX5918ky">https://t.co/lvzX5918ky</a><br><br>Social Spirit:<a href="https://t.co/Js463MlgCi">https://t.co/Js463MlgCi</a><a href="https://twitter.com/hashtag/steddie?src=hash&amp;ref_src=twsrc%5Etfw">#steddie</a> <a href="https://twitter.com/hashtag/fanfic?src=hash&amp;ref_src=twsrc%5Etfw">#fanfic</a> <a href="https://twitter.com/hashtag/yaoi?src=hash&amp;ref_src=twsrc%5Etfw">#yaoi</a> <a href="https://twitter.com/hashtag/BL?src=hash&amp;ref_src=twsrc%5Etfw">#BL</a> <a href="https://twitter.com/hashtag/strangerthings4?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthings4</a> <a href="https://twitter.com/hashtag/ship?src=hash&amp;ref_src=twsrc%5Etfw">#ship</a> <a href="https://t.co/541AM9qC2I">pic.twitter.com/541AM9qC2I</a></p>&mdash; Sala Yaoi 801 &amp; Yuri 🏳️‍🌈 (@SalaYaoi801Yuri) <a href="https://twitter.com/SalaYaoi801Yuri/status/1575929472515194881?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br><blockquote class="twitter-tweet"><p lang="pt" dir="ltr">&quot;I put a spell on you<br>Because you&#39;re mine<br>You&#39;re mine...&quot;<br><br>• Via Pinterest<br><br>• Editado por: Equipe <a href="https://twitter.com/josephquinnbr_2?ref_src=twsrc%5Etfw">@josephquinnbr_2</a> <br>Se repostar, nos dê os créditos.<a href="https://twitter.com/hashtag/josephquinn?src=hash&amp;ref_src=twsrc%5Etfw">#josephquinn</a> <a href="https://twitter.com/hashtag/josephquinnbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#josephquinnbrasil</a> <a href="https://twitter.com/hashtag/eddiemunson?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunson</a> <a href="https://twitter.com/hashtag/eddiemunsonfandom?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunsonfandom</a> <a href="https://twitter.com/hashtag/eddiemunsonbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#eddiemunsonbrasil</a> <a href="https://twitter.com/hashtag/strangerthings4?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthings4</a> <a href="https://twitter.com/hashtag/strangerthingsbrasil?src=hash&amp;ref_src=twsrc%5Etfw">#strangerthingsbrasil</a> <a href="https://t.co/BlLQzb4MNo">pic.twitter.com/BlLQzb4MNo</a></p>&mdash; Joseph Quinn BR (@josephquinnbr_2) <a href="https://twitter.com/josephquinnbr_2/status/1575644413413322753?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<br></body><script>
+
+        let trace = {
+            x: ['2022-09-30T00:31:16Z', '2022-09-30T01:55:23Z', '2022-09-30T03:09:36Z', '2022-09-30T04:36:42Z', '2022-09-30T05:31:36Z', '2022-09-30T12:41:04Z', '2022-09-30T14:49:32Z', '2022-09-30T14:57:34Z', '2022-09-30T15:48:42Z', '2022-09-30T15:52:47Z', '2022-09-30T15:52:50Z', '2022-09-30T15:53:29Z', '2022-09-30T15:55:27Z', '2022-09-30T15:55:43Z', '2022-09-30T15:56:21Z', '2022-09-30T15:56:39Z', '2022-09-30T15:59:09Z', '2022-09-30T15:59:34Z', '2022-09-30T16:00:22Z', '2022-09-30T16:04:11Z', '2022-09-30T16:05:49Z', '2022-09-30T16:11:53Z', '2022-09-30T17:01:16Z', '2022-09-30T17:10:25Z', '2022-09-30T18:01:05Z', '2022-09-30T19:24:00Z', '2022-09-30T19:26:20Z', '2022-09-30T21:11:17Z', '2022-09-30T21:26:25Z', '2022-10-01T01:02:03Z', '2022-10-01T01:06:28Z', '2022-10-01T03:18:50Z', '2022-10-01T04:07:52Z', '2022-10-01T07:29:50Z', '2022-10-01T12:37:34Z', '2022-10-01T13:04:58Z', '2022-10-01T13:48:40Z', '2022-10-01T17:43:06Z', '2022-10-01T18:00:39Z', '2022-10-01T20:04:39Z', '2022-10-01T22:29:06Z', '2022-10-02T00:07:52Z', '2022-10-02T00:19:30Z', '2022-10-02T03:17:24Z', '2022-10-02T03:18:27Z', '2022-10-02T14:42:43Z', '2022-10-02T14:48:57Z', '2022-10-02T19:48:45Z', '2022-10-02T22:37:17Z', '2022-10-03T00:40:40Z', '2022-10-03T02:04:56Z', '2022-10-03T04:00:12Z', '2022-10-03T06:25:35Z', '2022-10-03T09:33:30Z', '2022-10-03T12:09:38Z', '2022-10-03T12:29:01Z', '2022-10-03T15:38:49Z', '2022-10-03T15:39:26Z', '2022-10-03T15:46:20Z', '2022-10-03T17:14:40Z', '2022-10-03T18:35:12Z', '2022-10-03T18:35:46Z', '2022-10-03T18:35:50Z', '2022-10-03T18:37:04Z', '2022-10-03T18:37:10Z', '2022-10-03T18:37:21Z', '2022-10-03T18:37:40Z', '2022-10-03T18:37:56Z', '2022-10-03T18:38:36Z', '2022-10-03T19:00:42Z', '2022-10-03T19:14:42Z', '2022-10-03T19:23:17Z', '2022-10-03T19:25:21Z', '2022-10-03T19:28:48Z', '2022-10-03T19:48:10Z', '2022-10-03T19:49:29Z', '2022-10-03T19:49:41Z', '2022-10-03T21:57:57Z', '2022-10-03T22:08:19Z', '2022-10-03T22:10:02Z', '2022-10-03T22:15:13Z', '2022-10-03T23:02:01Z', '2022-10-03T23:03:04Z'],
+            y: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+            mode: 'lines',
+            line: {
+                color: 'rgb(255, 255, 255)',
+                width: 1
+            }
+        };
+
+        let layout = {
+            title: {
+                text: '<b>Lineplot (StrangerThings4.json)</b>',
+                font: {
+                    size: 36,
+                    color: 'white',
+                    family: 'Montserrat'
+                }
+            },
+
+            paper_bgcolor: 'rgb(27, 37, 66)',
+            plot_bgcolor: 'rgb(27, 37, 66)',
+
+            xaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            },
+
+            yaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            }
+        };
+
+        Plotly.newPlot('lineplot', [trace], layout);
+        
+
+        let data = [
+            {
+                x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24],
+                y: ['30-9-2022', '2-10-2022'],
+                z: [[2, 1, 1, 1, 1, 1, 2, 10, 4, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2], [2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 3, 1, 10, 8, 1, 3, 2, 0, 0, 0, 0, 0, 0, 0]],
+                type: 'heatmap',
+                xgap: 2,
+                ygap: 2,
+                showscale: false,
+                colorscale: [['0.0', 'rgb(237, 222, 255)'],
+                             ['0.111111111111', 'rgb(234, 218, 255)'],
+                             ['0.222222222222', 'rgb(216, 200, 236)'],
+                             ['0.333333333333', 'rgb(178, 117, 254)'],
+                             ['0.444444444444', 'rgb(178, 117, 254)'],
+                             ['0.555555555556', 'rgb(171, 104, 255)'],
+                             ['0.666666666667', 'rgb(163, 91, 255)'],
+                             ['0.777777777778', 'rgb(140, 50, 255)'],
+                             ['0.888888888889', 'rgb(131, 33, 255)'],
+                             ['1.0', 'rgb(124, 33, 240)']]
+            }
+        ];
+
+        let layout2 = {
+            title: {
+                text: '<b>Heatmap Hora (StrangerThings4.json)</b>',
+                font: {
+                    size: 36,
+                    color: 'white',
+                    family: 'Montserrat'
+                }
+            },
+
+            annotations: [],
+            height: 280 * 1,
+            margin: {
+                t: 100,
+                r: 0,
+                l: 70,
+                b: 140
+            },
+            
+            paper_bgcolor: 'rgb(27, 37, 66)',
+            plot_bgcolor: 'rgb(27, 37, 66)',
+
+            xaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            },
+
+            yaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            }
+        };
+
+        for (let i = 0; i < ['30-9-2022', '2-10-2022'].length; i++) {
+            for (let j = 0; j < [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24].length; j++) {
+                let result = {
+                    x: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24][j],
+                    y: ['30-9-2022', '2-10-2022'][i],
+                    text: [[2, 1, 1, 1, 1, 1, 2, 10, 4, 2, 1, 2, 2, 2, 1, 1, 1, 1, 2, 1, 1, 1, 1, 2], [2, 2, 1, 1, 1, 1, 1, 1, 1, 2, 3, 1, 10, 8, 1, 3, 2, 0, 0, 0, 0, 0, 0, 0]][i][j],
+                    font: {color: 'rgb(0, 0, 0)'},
+                    showarrow: false
+                };
+
+                layout2.annotations.push(result);
+            }
+        }
+
+        Plotly.newPlot('heatmap', data, layout2);
+        
+
+        let data2 = [
+            {
+                x: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59],
+                y: ['30-9 0h', '2-10 3h'],
+                z: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 6, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],
+                type: 'heatmap',
+                xgap: 2,
+                ygap: 2,
+                showscale: false,
+                colorscale: [['0.0', 'rgb(237, 222, 255)'],
+                             ['0.111111111111', 'rgb(234, 218, 255)'],
+                             ['0.222222222222', 'rgb(216, 200, 236)'],
+                             ['0.333333333333', 'rgb(178, 117, 254)'],
+                             ['0.444444444444', 'rgb(178, 117, 254)'],
+                             ['0.555555555556', 'rgb(171, 104, 255)'],
+                             ['0.666666666667', 'rgb(163, 91, 255)'],
+                             ['0.777777777778', 'rgb(140, 50, 255)'],
+                             ['0.888888888889', 'rgb(131, 33, 255)'],
+                             ['1.0', 'rgb(124, 33, 240)']]
+            }
+        ];
+
+        let layout4 = {
+            title: {
+                text: '<b>Heatmap Minutos (StrangerThings4.json)</b>',
+                font: {
+                    size: 36,
+                    color: 'white',
+                    family: 'Montserrat'
+                }
+            },
+            annotations: [],
+            height: 280 * 1,
+            margin: {
+                t: 100,
+                r: 0,
+                l: 70,
+                b: 140
+            },
+
+            paper_bgcolor: 'rgb(27, 37, 66)',
+            plot_bgcolor: 'rgb(27, 37, 66)',
+
+            xaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            },
+
+            yaxis: {
+                gridcolor: 'rgb(47, 64, 115)',
+                gridwidth: 1,
+                
+                zerolinecolor: 'rgb(47, 64, 115)',
+                zerolinewidth: 1,
+
+                tickfont : {
+                    size : 12,
+                    color : 'white'
+                }
+            }
+        };
+
+        for (let i = 0; i < ['30-9 0h', '2-10 3h'].length; i++) {
+            for (let j = 0; j < [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59].length; j++) {
+                let result = {
+                    x: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59][j],
+                    y: ['30-9 0h', '2-10 3h'][i],
+                    text: [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 6, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]][i][j],
+                    font: {color: 'rgb(0, 0, 0)'},
+                    showarrow: false
+                };
+
+                layout4.annotations.push(result);
+            }
+        }
+
+        Plotly.newPlot('heatmapMinute', data2, layout4);
+        
+
+        let meio = [['strangerthings4', 2], ['josephquinn', 1], ['eddiemunson', 1], ['josephquinnbrasil', 1], ['eddiemunsonfandom', 1], ['eddiemunsonbrasil', 1], ['hellfireclub', 1], ['via', 1], ['pinterest', 1], ['strangerthingsbrasil', 1]][parseInt([['strangerthings4', 2], ['josephquinn', 1], ['eddiemunson', 1], ['josephquinnbrasil', 1], ['eddiemunsonfandom', 1], ['eddiemunsonbrasil', 1], ['hellfireclub', 1], ['via', 1], ['pinterest', 1], ['strangerthingsbrasil', 1]].length/2)][1];
+        let grandes = ['#FF58B2', '#D04AFF', '#0F61FF', '#F96060', '#FFCEFA'];
+        let pequenas = ['#AAFF9C', '#A7EEA6', '#87C5FF', '#FFFFFF'];
+        WordCloud(document.getElementById('wordcloud'),
+        { 
+            list: [['strangerthings4', 2], ['josephquinn', 1], ['eddiemunson', 1], ['josephquinnbrasil', 1], ['eddiemunsonfandom', 1], ['eddiemunsonbrasil', 1], ['hellfireclub', 1], ['via', 1], ['pinterest', 1], ['strangerthingsbrasil', 1]],
+            gridSize: 18,
+            weightFactor: 15,
+            fontFamily: 'Times, serif',
+            color: function (word, weight) {
+                return (weight > meio) ? grandes[Math.floor(Math.random() * grandes.length)] : pequenas[Math.floor(Math.random() * pequenas.length)];
+            },
+            backgroundColor: '#1B2542'
+        });        
+        
+</script>

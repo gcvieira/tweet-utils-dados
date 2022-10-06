@@ -1,0 +1,45 @@
+File name: /home/gui/PUCRS/CC/2022_2/pesquisa/T1/Tweet-Utils-UI/DATA/gathering/StrangerThings4.json
+Tweet count: 85
+
+Most recent tweet: 2022-10-03T23:03:04Z
+Oldest tweet: 2022-09-30T00:20:22Z
+
+
+Word ranking:
+
+	rt: 58
+	strangerthings4: 51
+	créditos: 25
+	josephquinn: 22
+	hoje: 21
+	eddiemunson: 21
+	anos: 20
+	will: 19
+	sexta: 19
+	schnapp: 19
+
+User ranking:
+
+	@phobiacoms_: 19
+	@sthingscombr: 18
+	@almi: 18
+	@josephquinnbr_2: 17
+	@persiewriter: 3
+	@salayaoi801yuri: 2
+	@jqfbrazil: 2
+	@jessierp: 2
+	@euliacasttro: 2
+	@adelecany: 2
+
+Hashtag ranking:
+
+	#strangerthings4: 51
+	#josephquinn: 22
+	#eddiemunson: 21
+	#josephquinnbrasil: 18
+	#eddiemunsonfandom: 17
+	#eddiemunsonbrasil: 17
+	#hellfireclub: 14
+	#strangerthingsbrasil: 11
+	#lesmiserables: 7
+	#makeupmovie: 5

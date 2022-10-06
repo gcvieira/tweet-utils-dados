@@ -1,0 +1,45 @@
+File name: /home/gui/PUCRS/CC/2022_2/pesquisa/T1/Tweet-Utils-UI/DATA/gathering/StrangerThings.json
+Tweet count: 127
+
+Most recent tweet: 2022-10-03T23:39:58Z
+Oldest tweet: 2022-09-30T02:04:18Z
+
+
+Word ranking:
+
+	strangerthings: 95
+	rt: 69
+	hoje: 30
+	jamie: 27
+	bower: 27
+	anos: 26
+	aniversário: 26
+	vecna: 25
+	things: 25
+	stranger: 25
+
+User ranking:
+
+	@jcbrdaily: 24
+	@sthingscombr: 19
+	@almi: 18
+	@xmissswalker: 4
+	@tododiast5: 3
+	@strangertbr: 3
+	@netflixbrasil: 3
+	@dotadaoosz: 2
+	@yasmimox: 1
+	@videosamadores4: 1
+
+Hashtag ranking:
+
+	#strangerthings: 94
+	#comicconafrica: 7
+	#pintoawards: 5
+	#series: 4
+	#netflix: 4
+	#tvtime: 3
+	#strangerthings5: 3
+	#strangerth: 3
+	#noahschnapp: 3
+	#xotaawards: 2
