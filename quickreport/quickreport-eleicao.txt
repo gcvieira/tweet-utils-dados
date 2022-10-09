@@ -1,0 +1,45 @@
+File name: /home/gui/PUCRS/CC/2022_2/pesquisa/T1/Tweet-Utils-UI/DATA/gathering/eleicao.json
+Tweet count: 99999
+
+Most recent tweet: 2022-09-29T23:59:59Z
+Oldest tweet: 2022-09-29T12:11:19Z
+
+
+Word ranking:
+
+	eleição: 78311
+	rt: 74286
+	brasil: 16673
+	lula: 14145
+	candidato: 13380
+	bolsonaro: 12993
+	dia: 12818
+	vai: 9508
+	levou: 9474
+	domingo: 8650
+
+User ranking:
+
+	@pedroronchi2: 5876
+	@brazilfight: 4092
+	@ayres_britto: 3995
+	@blogdonoblat: 2840
+	@revistapiaui: 1937
+	@tdetravesti: 1870
+	@rconstantino: 1652
+	@monicabergamo: 1577
+	@andrejanonesadv: 1572
+	@centraleleicoes: 1459
+
+Hashtag ranking:
+
+	#pauloguedesnopanico: 279
+	#lulano1ºturno: 241
+	#bolsonaronoprimeiroturno: 163
+	#eleições2022: 148
+	#eleicoes2022: 133
+	#luladay: 132
+	#rappinhood: 85
+	#haddadgovernador: 84
+	#lulanaglobo: 82
+	#domingo0800: 77

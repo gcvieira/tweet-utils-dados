@@ -1,0 +1,45 @@
+File name: /home/gui/PUCRS/CC/2022_2/pesquisa/T1/Tweet-Utils-UI/DATA/gathering/bolsonaro.json
+Tweet count: 99999
+
+Most recent tweet: 2022-09-29T23:59:59Z
+Oldest tweet: 2022-09-29T22:51:10Z
+
+
+Word ranking:
+
+	bolsonaro: 93637
+	rt: 82990
+	neymar: 33626
+	vai: 13012
+	voto: 12863
+	lula: 12062
+	bolas: 11431
+	22: 11252
+	vídeo: 10824
+	2: 9364
+
+User ranking:
+
+	@kimpaim: 8324
+	@catitaadm: 5688
+	@brazilfight: 4769
+	@flaviobolsonaro: 4111
+	@vittorocriador: 3458
+	@yurimarcal: 3400
+	@patrlotas: 3239
+	@jairbolsonaro: 1597
+	@rconstantino: 1458
+	@glauber_braga: 1429
+
+Hashtag ranking:
+
+	#bolsonaronoprimeiroturno: 3013
+	#bailei: 1087
+	#bolsoney: 1035
+	#g1: 363
+	#bolsonaro: 309
+	#bolsonaro22: 289
+	#bolsonaroreeleitoem2022: 266
+	#bolsonaronoprimeiroturno22: 264
+	#neymarcombolsonaro: 242
+	#eleições2022: 234

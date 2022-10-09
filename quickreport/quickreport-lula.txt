@@ -1,0 +1,45 @@
+File name: /home/gui/PUCRS/CC/2022_2/pesquisa/T1/Tweet-Utils-UI/DATA/gathering/lula.json
+Tweet count: 99999
+
+Most recent tweet: 2022-09-29T23:59:59Z
+Oldest tweet: 2022-09-29T22:09:46Z
+
+
+Word ranking:
+
+	lula: 91748
+	rt: 70868
+	bolsonaro: 18018
+	vai: 12188
+	votos: 11199
+	turno: 11112
+	votar: 10987
+	datafolha: 10502
+	50: 10468
+	voto: 10165
+
+User ranking:
+
+	@lulaoficial: 5207
+	@ayres_britto: 2923
+	@yurimarcal: 2397
+	@brazilfight: 2259
+	@tdetravesti: 1389
+	@rconstantino: 1381
+	@uolnoticias: 1245
+	@pedroronchi2: 1137
+	@andrejanonesadv: 1086
+	@siteptbr: 958
+
+Hashtag ranking:
+
+	#luladay: 2765
+	#brasildaesperança: 2218
+	#lulanaglobo: 1621
+	#lulano1ºturno: 1420
+	#g1: 764
+	#lula: 740
+	#lulapresidente: 375
+	#eleições2022: 353
+	#lula2022: 340
+	#bolsonaro: 272
